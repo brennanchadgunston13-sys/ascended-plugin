@@ -1,0 +1,12 @@
+name: CrownPlugin
+version: 1.0.0
+main: com.example.crown.CrownPlugin
+api-version: '1.21'
+commands:
+  crown:
+    description: Give the crown to a player
+    usage: /crown give <player>
+    permission: crown.admin
+permissions:
+  crown.admin:
+    default: op
